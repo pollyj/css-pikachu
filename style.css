@@ -1,0 +1,128 @@
+html {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  background-color: #f4dc26;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.pikachu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-eye {
+  width: 100px;
+  height: 100px;
+  background: #000000;
+  position: absolute;
+  border-radius: 50%;
+  top: -100px;
+  left: -400px;
+}
+
+.left-sparkle {
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  position: absolute;
+  border-radius: 50%;
+  top: 18px;
+  left: 51px;
+}
+
+.right-eye {
+  width: 100px;
+  height: 100px;
+  background: #000000;
+  position: absolute;
+  border-radius: 50%;
+  top: -98px;
+  left: 341px;
+}
+
+.right-sparkle {
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  position: absolute;
+  border-radius: 50%;
+  top: 16px;
+  left: 19px;
+}
+
+.nose {
+  width: 40px;
+  height: 20px;
+  background: #000000;
+  position: absolute;
+  border-radius: 50% 50% 50% 50% / 31% 31% 70% 70%;
+  top: -28px;
+}
+
+.mouth1 {
+  width: 200px;
+  height: 86px;
+  background: #000000;
+  position: absolute;
+  border-radius: 99% 35% 87% 38% / 70% 51% 78% 59%;
+  top: 65px;
+  left: -172px;
+}
+
+.mouth2 {
+  width: 200px;
+  height: 86px;
+  background: #000000;
+  position: absolute;
+  border-radius: 35% 99% 38% 87% / 51% 70% 59% 78%;
+  top: 65px;
+  left: 10px;
+}
+
+.mouth-mask1 {
+  width: 183px;
+  height: 83px;
+  background: #f4dc26;
+  position: absolute;
+  border-radius: 99% 35% 87% 38% / 70% 51% 78% 59%;
+  top: 52px;
+  left: -163px;
+}
+
+.mouth-mask2 {
+  width: 183px;
+  height: 83px;
+  background: #f4dc26;
+  position: absolute;
+  border-radius: 35% 99% 38% 87% / 51% 70% 59% 78%;
+  top: 52px;
+  left: 15px;
+}
+
+.left-cheek {
+  width: 100px;
+  height: 100px;
+  background: #d81e1e;
+  position: absolute;
+  border-radius: 50%;
+  top: 42px;
+  left: -465px;
+}
+
+.right-cheek {
+  width: 100px;
+  height: 100px;
+  background: #d81e1e;
+  position: absolute;
+  border-radius: 50%;
+  top: 42px;
+  left: 407px;
+}
+
