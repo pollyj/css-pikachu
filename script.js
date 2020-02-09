@@ -1,11 +1,15 @@
 'use strict';
 // please do not delete the 'use strict' line above
 
+const sadMouth = document.getElementsByClassName("sad-mouth");
+const happyMouth = document.getElementsByClassName("happy-mouth");
 let audio = new Audio("Pikaaaa.mp3");
 // from: https://www.soundboard.com/sb/sound/298335
 audio.play();
 
+
 function changeColor() {
+  sadFace();
  
   let number = Math.ceil(Math.random()*10);
   let targets = [document.body, document.getElementsByClassName("change-color")[0], document.getElementsByClassName("change-color")[1]]
@@ -42,10 +46,31 @@ function changeColor() {
     case 10: //pikachu yellow
     color = "#f4dc26";
     audio.play(); 
+    happyFace();
     break;
   }
   for (const e of targets) {
     e.style.backgroundColor = color;
+  }
+}
+
+
+
+function sadFace(){
+  for (const e of sadMouth) {
+    e.style.visibility = "visible";
+  }
+  for (const e of happyMouth) {
+    e.style.visibility = "hidden";
+  }
+}
+
+function happyFace(){
+  for (const e of sadMouth) {
+    e.style.visibility = "hidden";
+  }
+  for (const e of happyMouth) {
+    e.style.visibility = "visible";
   }
 }
 

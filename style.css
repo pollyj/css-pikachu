@@ -25,6 +25,7 @@ body {
   border-radius: 50%;
   top: -100px;
   left: -400px;
+  box-shadow: -4px 4px 6px #5a5959
 }
 
 .left-sparkle {
@@ -45,6 +46,7 @@ body {
   border-radius: 50%;
   top: -98px;
   left: 341px;
+  box-shadow: 4px 4px 6px #5a5959
 }
 
 .right-sparkle {
@@ -64,46 +66,74 @@ body {
   position: absolute;
   border-radius: 50% 50% 50% 50% / 31% 31% 70% 70%;
   top: -28px;
+  box-shadow: 0px 4px 3px #5a5959
 }
 
 .mouth1 {
-  width: 200px;
+  width: 100px;
   height: 86px;
   background: #000000;
   position: absolute;
   border-radius: 99% 35% 87% 38% / 70% 51% 78% 59%;
-  top: 65px;
-  left: -172px;
+  top: 15px;
+  left: -76px;
+  box-shadow: 4px 4px 6px #5a5959
 }
 
 .mouth2 {
-  width: 200px;
+  width: 100px;
   height: 86px;
   background: #000000;
   position: absolute;
   border-radius: 35% 99% 38% 87% / 51% 70% 59% 78%;
-  top: 65px;
-  left: 10px;
+  top: 15px;
+  left: 19px;
+  box-shadow: -4px 4px 6px #5a5959
 }
 
 .mouth-mask1 {
-  width: 183px;
+  width: 100px;
   height: 83px;
   background: #f4dc26;
   position: absolute;
   border-radius: 99% 35% 87% 38% / 70% 51% 78% 59%;
-  top: 52px;
-  left: -163px;
+  top: 5px;
+  left: -76px;
 }
 
 .mouth-mask2 {
-  width: 183px;
+  width: 100px;
   height: 83px;
   background: #f4dc26;
   position: absolute;
   border-radius: 35% 99% 38% 87% / 51% 70% 59% 78%;
-  top: 52px;
-  left: 15px;
+  top: 5px;
+  left: 20px;
+}
+
+.mouth3 {
+  width: 125px;
+  height: 20px;
+  background: #000000;
+  position: absolute;
+  border-radius: 76% 76% 10% 10%/150% 150% 0% 0%;
+  top: 71px;
+  left: -44px;
+}
+
+.mouth3-mask {
+  width: 125px;
+  height: 4px;
+  background: #5a5959;
+  position: absolute;
+  border-radius: 100% 100% 0% 0%/200% 200% 0% 0%;
+  top: 87px;
+  left: -44px;
+  box-shadow: 0px 2px 4px 2px #5a5959
+}
+
+.sad-mouth {
+  visibility: hidden;
 }
 
 .left-cheek {
@@ -114,6 +144,7 @@ body {
   border-radius: 50%;
   top: 42px;
   left: -465px;
+  box-shadow: -4px 4px 6px #4b1f1f
 }
 
 .right-cheek {
@@ -124,5 +155,6 @@ body {
   border-radius: 50%;
   top: 42px;
   left: 407px;
+  box-shadow: 4px 4px 6px #4b1f1f
 }
 
